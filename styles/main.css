@@ -1,25 +1,5 @@
-
-element.style {
+header {
+text-align: center;
+background-color: coral;
+color: darkgray;
 }
-header img {
-    width: auto;
-    height: auto;
-    float: right;
-}
-img {
-    border-style: none;
-}
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-header, footer, footer a {
-    text-align: center;
-    background-color: coral;
-    color: whitesmoke;
-}
-body {
-    font-size: 16px;
-    line-height: 32px;
-    color: #000;
-    font-family: 'Mansalva', cursive;
