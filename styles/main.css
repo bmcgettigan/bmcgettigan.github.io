@@ -1,5 +1,9 @@
-header {
+header, body, footer {
 text-align: center;
-background-color: coral;
+background-color: darkgreen;
 color: darkgray;
+}
+
+header img {
+    float: right;
 }
