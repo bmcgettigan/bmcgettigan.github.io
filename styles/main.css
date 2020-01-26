@@ -12,6 +12,7 @@ header img {
 }
 
 header{
+    margin-top: 100px;
     text-decoration: underline;
     background-color: rgb(161, 139, 139);;
 }
