@@ -1,9 +1,33 @@
-header, body, footer {
+header, main, footer {
 text-align: center;
-background-color: 06AFE1;
-color: darkgreen;
+color: black;
+width: 800px;
+margin: auto;
+border-radius: 3.2px;
+
 }
 
 header img {
     float: right;
+}
+
+header{
+    text-decoration: underline;
+    background-color: rgb(161, 139, 139);;
+}
+
+main {
+    background-color: rgb(161, 139, 139);
+}
+
+footer{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main ul {
+
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
 }
