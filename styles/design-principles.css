@@ -1,0 +1,15 @@
+header, footer, body {
+    margin: auto;
+
+
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img{
+    margin: auto;
+}
+
+figure{ display:inline-block;}
