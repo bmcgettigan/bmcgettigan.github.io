@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
 header, footer, body {
     margin: auto;
 
@@ -6,10 +8,36 @@ header, footer, body {
 
 .img-container {
     text-align: center;
-}
-
-.img-container img{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     margin: auto;
 }
 
-figure{ display:inline-block;}
+figure{
+ /* max-width: 200px; */
+ vertical-align: top;
+}
+
+figcaption{
+    font-family: 'Odibee Sans', cursive;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .img-container {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img-container {
+        grid-template-columns: 100%;
+    }
+    figure {
+        max-width: 150px;
+        margin: auto;
+    }
+}
