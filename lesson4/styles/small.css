@@ -38,13 +38,27 @@ body {
     background-color: #C9E7FF;
 }
 
+nav {
+    text-align: center;
+}
+
 nav li {
     list-style: none;
-    text-align: center;
 }
 
 nav ul {
     padding-left: 0px;
+}
+
+nav #menuList {
+
+    display: none;
+
+
+}
+
+nav #prestonMenu::after {
+    content: "Magic";
 }
 
 #prestonTitle {
@@ -72,4 +86,10 @@ nav ul {
 
 footer {
     text-align: center;
+}
+
+footer p {
+
+    font-size: 12px;
+
 }

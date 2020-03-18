@@ -5,7 +5,7 @@
 /* Wednesday, 10 May, 2020*/
 /* declare date variable*/
 
-let currentDate= new Date();
+let todayDate= new Date();
 let fullDate;
 
 /* day of week*/
@@ -20,13 +20,13 @@ let daysOfWeek = [
     'SATURDAY'
 ];
 
-let dayOfWeek = currentDate.getDay();
+let dayOfWeek = todayDate.getDay();
 
 fullDate = daysOfWeek[dayOfWeek];
 
 /*day of month*/
 
-let dayOfMonth = currentDate.getDate();
+let dayOfMonth = todayDate.getDate();
 fullDate += ', ' + dayOfMonth;
 
 /*month*/
@@ -46,22 +46,24 @@ let months = [
     'DECEMBER'
 ]
 
-fullDate += ' ' + months[currentDate.getMonth()];
+fullDate += ' ' + months[todayDate.getMonth()];
 
 
 /* get year*/
-let year = currentDate.getFullYear();
+let year = todayDate.getFullYear();
 fullDate += ' ' + year;
 
 /* full date*/
-document.querySelector('#current-date').textContent = fullDate;
+document.querySelector('#todayDate').textContent = fullDate;
 
-/*hamburger selector*/
 
-const hambutton = document.querySelector(".ham");
-hambutton.addEventListener("click", toggleMenu, false);
+function dropDown() {
 
-function toggleMenu() {
-  document.querySelector(".navigation").classList.toggle("responsive");
-  console.log("working");
+    var x = document.getElementById("menuList");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+
 }

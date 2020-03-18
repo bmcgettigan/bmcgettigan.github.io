@@ -14,12 +14,11 @@
     <header>
         <h1>Weathery<span>Bees</span></h1>
         <img src="./images/weatherybeesbee.jpeg" alt="bee logo">
-        <h2>Catch phrase or Motto</h2>
+        <h2>Weather or not you bee leaving, we got you.</h2>
     </header>
         <nav>
-            <ul>
-                <li id="prestonMenu">Menu</li>
-                <li><a href="#">Home</a></li>
+                <a href="javascript:void(0);" id="prestonMenu" onclick="dropDown()">Menu</a>
+            <ul id="menuList">
                 <li><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
@@ -46,12 +45,8 @@
              </section>
          </main> 
          <footer>
-                <p id="todayDate"></p>
-                <script src="main.js"></script>
+                <p>&copy; WeatheryBees | <span id="todayDate" ></span> | Buck McGettigan</p>
          </footer>
-         <footer>
-                &copy; WeatheryBees | <span id="current-date" ></span> | Buck McGettigan
-        </footer>
-        <script src="main.js"></script>
+        <script src="./scripts/main.js"></script>
 </body>
 </html>
