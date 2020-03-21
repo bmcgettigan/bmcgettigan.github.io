@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+
+body {
+    background-color: palevioletred;
+}
+
+    h4 {
+        text-align: center;
+    }
+}

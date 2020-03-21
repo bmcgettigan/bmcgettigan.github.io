@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px) and (min-width: 650px) {
+
+body {
+    background-color: cornflowerblue;
+}
+
+    h4 {
+        text-align: center;
+    }
+
+}
