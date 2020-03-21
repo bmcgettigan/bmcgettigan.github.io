@@ -26,6 +26,10 @@ header h2{
     margin-top: -5px;
 }
 
+h4 {
+    text-align: center;
+}
+
 header img{
     display:inline-block;
     width: 80px;
