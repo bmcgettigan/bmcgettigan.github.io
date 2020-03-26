@@ -115,3 +115,14 @@ footer p {
     width: 100%;
     padding: 20px;
 }
+
+#weathersummary {
+
+    background-image: url("../images/hotairballoon.jpg");
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
