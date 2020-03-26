@@ -17,8 +17,13 @@ h1 span {
 }
 
 header {
-    padding: 30px;
+    padding: 100px 0 30px 0;
     background-color: white;
+    text-align: center;
+}
+
+header div {
+    padding-left: 30px;
 }
 
 header h2{
@@ -52,6 +57,10 @@ nav li {
 
 nav ul {
     padding-left: 0px;
+}
+
+nav a:hover {
+    color: cornflowerblue;
 }
 
 nav #menuList {
@@ -96,4 +105,13 @@ footer p {
 
     font-size: 12px;
 
+}
+
+#banner {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #FFCBC9;
+    width: 100%;
+    padding: 20px;
 }

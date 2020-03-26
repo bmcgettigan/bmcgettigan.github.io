@@ -1,6 +1,3 @@
-// var d = new Date();
-// document.getElementById("todayDate").innerHTML = d.toDateString();
-
 
 /* Wednesday, 10 May, 2020*/
 /* declare date variable*/
@@ -53,8 +50,10 @@ fullDate += ' ' + months[todayDate.getMonth()];
 let year = todayDate.getFullYear();
 fullDate += ' ' + year;
 
+console.log(fullDate);
+
 /* full date*/
-document.querySelector('#todayDate').textContent = fullDate;
+document.getElementById("today").textContent = fullDate.toString();
 
 
 function dropDown() {
@@ -66,4 +65,15 @@ function dropDown() {
         x.style.display = "block";
     }
 
+}
+
+console.log(dayOfWeek);
+function pancakes() {
+    var x = document.getElementById("header");
+    var y = document.getElementById("banner");
+    if (dayOfWeek != 5) {
+        y.style.display = "none";
+        x.style.padding = "30px 0";
+    }
+    
 }

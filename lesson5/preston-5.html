@@ -8,13 +8,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/small.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/medium.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/large.css">
-    <!-- <script src="main.js"></script> -->
 </head>
-<body>
-    <header>
-        <h1>Weathery<span>Bees</span></h1>
-        <img src="./images/weatherybeesbee.jpeg" alt="bee logo">
-        <h2>Weather or not you bee leaving, we got you.</h2>
+<body onload="pancakes()">
+    <header id="header">
+        <div id="banner">
+                Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div>
+            <h1>Weathery<span>Bees</span></h1>
+            <img src="./images/weatherybeesbee.jpeg" alt="bee logo">
+            <h2>Weather or not you bee leaving, we got you.</h2>
+        </div>
     </header>
         <nav>
                 <a href="javascript:void(0);" id="prestonMenu" onclick="dropDown()">Menu</a>
@@ -45,7 +49,7 @@
              </section>
          </main> 
          <footer>
-                <p>&copy; WeatheryBees | <span id="todayDate" ></span> | Buck McGettigan</p>
+                <p>&copy; WeatheryBees | <span id="today" ></span> | Buck McGettigan</p>
          </footer>
         <script src="./scripts/main.js"></script>
 </body>
