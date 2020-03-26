@@ -119,10 +119,46 @@ footer p {
 #weathersummary {
 
     background-image: url("../images/hotairballoon.jpg");
-    height: 230px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    padding: 25px;
+
+}
+
+#weathersummary h4 {
+    margin-top: 0;
+}
+
+#weathersummary div {
+
+background-color: rgba(255, 255, 255 ,0.7);
+width: 250px;
+height: 150px;
+margin-top: auto;
+display: block;
+box-shadow: 2px 2px 2px black;
+
+}
+
+#weathersummary div li {
+
+text-align: left;
+margin: 10px 0px;
+
+
+}
+
+#weathersummary div h4 {
+
+font-family: "baloo";
+
+}
+
+#weathersummary div h4 span {
+
+    font-family: "Sacramento";
+    font-size: 1.15em;
 
 }
