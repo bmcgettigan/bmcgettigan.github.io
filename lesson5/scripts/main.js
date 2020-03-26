@@ -59,11 +59,16 @@ document.getElementById("today").textContent = fullDate.toString();
 function dropDown() {
 
     var x = document.getElementById("menuList");
-    if (x.style.display === "block") {
-        x.style.display = "none";
+    if (x.className !== "show") {
+        x.className = "show"
     } else {
-        x.style.display = "block";
+        x.className = "hide";
     }
+    // if (x.style.display === "block") {
+    //     x.style.display = "none";
+    // } else {
+    //     x.style.display = "block";
+    // }
 
 }
 

@@ -5,5 +5,18 @@
         text-align: center;
     }
 
+    #fiveday {
+
+        text-align: center;
+        display: block;
+        margin: auto;
+    
+    }
+
+    #fiveday table {
+        margin: auto;
+    
+    }
+
 
 }

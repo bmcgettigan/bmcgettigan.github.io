@@ -59,6 +59,11 @@ nav ul {
     padding-left: 0px;
 }
 
+nav a:link {
+    /* color: #FCFFA0; */
+    color: #6598C2;
+}
+
 nav a:hover {
     color: cornflowerblue;
 }
@@ -151,14 +156,33 @@ margin: 10px 0px;
 }
 
 #weathersummary div h4 {
-
-font-family: "baloo";
-
+    font-family: "baloo";
 }
 
 #weathersummary div h4 span {
-
     font-family: "Sacramento";
     font-size: 1.15em;
 
+}
+
+nav #menuList.hide {
+    display: none;
+}
+nav #menuList.show {
+    display: block;
+}
+
+#fiveday {
+
+    display: none;
+
+}
+
+#fiveday table {
+    border-collapse: collapse;
+}
+
+#fiveday table td, #fiveday table th {
+    padding: 10px;
+    border: 3px inset
 }
