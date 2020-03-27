@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Sacramento|Sen&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Baloo';
+    font-size: 30px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+ 
+h1 span {
+    font-family: 'Sacramento';
+}
+
+header {
+    padding: 100px 0 30px 0;
+    background-color: white;
+    text-align: center;
+}
+
+header div {
+    padding-left: 30px;
+}
+
+header h2{
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+header img{
+    display:inline-block;
+    width: 80px;
+    vertical-align: middle;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Sen';
+    background-color: #C9E7FF;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav a:link, nav a:visited {
+    color: #6598C2;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav #menuList {
+
+    display: none;
+
+
+}
+
+nav #prestonMenu::after {
+    content: "Magic";
+}
+
+#prestonTitle {
+    font-size: 28px;
+    font-family: "Baloo";
+}
+
+#sec1 {
+
+    text-align: center;
+
+}
+
+#sec2 {
+    
+    text-align: center;
+
+}
+
+#sec3 {
+    
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+
+    font-size: 12px;
+
+}
+
+#banner {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #FFCBC9;
+    width: 100%;
+    padding: 20px;
+}
+
+#weathersummary {
+
+    background-image: url("../images/hotairballoon.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+
+}
+
+#weathersummary h4 {
+    margin-top: 0;
+}
+
+#weathersummary div {
+
+background-color: rgba(255, 255, 255 ,0.7);
+width: 250px;
+height: 150px;
+margin-top: auto;
+display: block;
+box-shadow: 2px 2px 2px black;
+border-radius: 10px;
+
+}
+
+#weathersummary div li {
+
+text-align: left;
+margin: 10px 0px;
+
+
+}
+
+#weathersummary div h4 {
+    font-family: "baloo";
+}
+
+#weathersummary div h4 span {
+    font-family: "Sacramento";
+    font-size: 1.15em;
+
+}
+
+nav #menuList.hide {
+    display: none;
+}
+nav #menuList.show {
+    display: block;
+}
+
+#fiveday {
+
+    display: none;
+
+}
+
+#fiveday table {
+    border-collapse: collapse;
+}
+
+#fiveday table td, #fiveday table th {
+    padding: 10px;
+    border: 3px inset
+}
+
+article {
+    width: 40%;
+    margin-left: auto;
+    margin-right: 8%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgba(255, 255, 255 ,0.7);
+
+}
+
+#sec2 {
+    background-image: url("../images/cloudsky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    margin: 20px 0;
+
+}

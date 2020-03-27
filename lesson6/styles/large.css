@@ -1,0 +1,52 @@
+@media screen and (min-width: 800px) {
+
+
+    h4 {
+        text-align: center;
+    }
+
+    nav a {
+
+        display: none;
+
+    }
+
+    nav ul a {
+        display: block;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 10px;
+
+    }
+
+    nav li {
+        display: inline-block;
+        margin: auto;
+        padding: 5px;
+    
+    }
+
+    nav li a:hover {
+        background-color: rgba(255, 255, 255 ,0.7);
+    }
+    nav #menuList.hide, nav #menuList.show, nav #menuList {
+        display: block; 
+    }
+
+
+    #fiveday {
+
+        text-align: center;
+        display: block;
+        margin: auto;
+    
+    }
+
+    #fiveday table {
+        margin: auto;
+    
+    }
+
+    
+
+}
