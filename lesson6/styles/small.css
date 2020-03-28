@@ -120,16 +120,16 @@ footer p {
     padding: 20px;
 }
 
-#weathersummary {
+/* #weathersummary {
 
-    background-image: url("../images/hotairballoon.jpg");
+    background-image: url("../images/prestonimage.jpeg");
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 25px;
 
-}
+} */
 
 #weathersummary h4 {
     margin-top: 0;
