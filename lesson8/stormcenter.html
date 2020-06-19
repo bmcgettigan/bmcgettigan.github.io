@@ -6,8 +6,6 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
-    <script src="storm.js"></script>
 </head>
 <body>
     <form action="#">
@@ -31,7 +29,7 @@
           <option value="Tornado">
         </datalist>
         <label for="sseverity">Storm severity:
-                <input type="range" id="sseverity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <input type="range" name="rating" id="sseverity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                 </label>
         <datalist id="tickmarks">
@@ -63,5 +61,7 @@
         <label for="comments">Storm type:</label><br>
         <textarea type="text" id="comments" name="comments" value=""></textarea><br>
     </form>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/storm.js"></script>
 </body>
 </html>
