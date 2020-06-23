@@ -122,6 +122,11 @@ section figure div {
 form { background-color: white;
        padding: 20px;
        border-radius: 20px;
-       box-shadow: 1px 1px 15px 1px; 
-       text-align: center
-    }
+       margin: auto;
+       width: 50%;
+       box-shadow: 1px 1px 15px 1px;
+       text-align: center;
+}
+
+
+
