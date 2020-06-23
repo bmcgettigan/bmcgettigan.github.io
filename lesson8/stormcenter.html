@@ -8,9 +8,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 </head>
 <body>
-    <form action="#">
+    <form action="./thanks.html" method="POST">
         <label for="fullname">Full name:</label><br>
-        <input type="text" id="fullname" name="fullname" pattern="[A-Za-z]{5,}" placeholder="Roberto Montez" required value=""><br>
+        <input type="text" id="fullname" name="fullname" pattern="[A-Za-z].{5,}" placeholder="Roberto Montez" required value=""><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" value="" placeholder="Jonhy@AppleSeed.com" ><br>
         <label for="phone">Phone:</label><br>
@@ -59,8 +59,9 @@
         <label for="maybe">Maybe:</label>
         <input type="radio" id="maybe" name="danger" value=""><br>
         <label for="comments">Storm type:</label><br>
-        <textarea type="text" id="comments" name="comments" value=""></textarea><br>
-    </form>
+        <textarea type="text" id="comments" placeholder="comments..." name="comments" value=""></textarea><br>
+        <button type="submit">Submit</button>
+    </form> 
     <script src="scripts/main.js"></script>
     <script src="scripts/storm.js"></script>
 </body>
