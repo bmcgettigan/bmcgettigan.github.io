@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/small.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/medium.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/large.css">
+</head>
+<body>
+    <form action="./thanks.html">
+        <label for="fullname">Full name:</label><br>
+        <input type="text" id="fullname" name="fullname" pattern="[A-Za-z].{5,}" placeholder="Roberto Montez" required value=""><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="" placeholder="Jonhy@AppleSeed.com" ><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="(123)456-7890" required value=""><br>
+        <label for="zip">Zip:</label><br>
+        <input type="number" id="zip" name="zip" placeholder="11111" required value=""><br>
+        <label for="sdate">Storm date:</label><br>
+        <input type="date" id="sdate" name="sdate" value=""><br>
+        <label for="stype">Storm type:</label><br>
+        <input list="stormoption" id="stype" placeholder="Storm type" value=""><br>
+        <datalist id="stormoption">
+          <option value="Flash Flood">
+          <option value="Hail">
+          <option value="Hurricane">
+          <option value="Thunderstorm">
+          <option value="Tornado">
+        </datalist>
+        <label for="sseverity">Storm severity:
+                <input type="range" name="rating" id="sseverity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                </label>
+        <datalist id="tickmarks">
+            <option value="0">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+        </datalist>
+        <label for="">Storm region:</label><br>
+        <select name="sregion" id="sregion">
+          <option value="ss">Soda Springs</option>
+          <option value="fh">Fish Haven</option>
+          <option value="pr">Preston</option>
+        </select><br>
+        <label for="danger">User in-danger level:</label><br>
+        <label for="yes">Yes:</label>
+        <input type="radio" id="yes" name="danger" value="">
+        <label for="no">No:</label>
+        <input type="radio" id="no" name="danger" value="">
+        <label for="maybe">Maybe:</label>
+        <input type="radio" id="maybe" name="danger" value=""><br>
+        <label for="comments">Storm type:</label><br>
+        <textarea type="text" id="comments" placeholder="comments..." name="comments" value=""></textarea><br>
+        <button type="submit">Submit</button>
+    </form> 
+    <script src="scripts/main.js"></script>
+    <script src="scripts/storm.js"></script>
+</body>
+</html>
