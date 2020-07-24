@@ -33,8 +33,12 @@ main h1 {
     margin: 0px;
 }
 
-main div h1 h2 {
-    padding: 100px 0 30px 0;
+#beelogo {
     background-color: white;
+}
+
+#beelogo h3 {
+    font-size: 40px;
     text-align: center;
+    vertical-align: center;
 }
