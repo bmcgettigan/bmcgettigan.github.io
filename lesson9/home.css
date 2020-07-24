@@ -13,3 +13,28 @@ li {
 figure {
     padding: 7%;
 }
+
+main img{
+    display:inline-block;
+    width: 80px;
+    vertical-align: middle;
+}
+
+main h2 {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+main h1 {
+    font-family: 'Baloo';
+    font-size: 30px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+main div h1 h2 {
+    padding: 100px 0 30px 0;
+    background-color: white;
+    text-align: center;
+}
