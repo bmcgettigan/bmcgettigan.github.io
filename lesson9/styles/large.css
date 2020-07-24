@@ -54,10 +54,18 @@
 
     .img-container {
         background-color: lightblue;
-        border: 1px solid red;
+        border: 1px solid green;
     }
 
     .fig-divs {
         display: flex;
     }
+
+    figure {
+        width: 30%;
+    
+    }
+
+
+
 }
