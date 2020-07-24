@@ -54,7 +54,7 @@
 
     .img-container {
         background-color: lightblue;
-        border: 1px solid green;
+        border: 1px solid redgreen;
     }
 
     .fig-divs {
@@ -63,9 +63,23 @@
 
     figure {
         width: 30%;
-    
+        padding: 0;
+        margin: 2%;
     }
 
+    figcaption {
+        background-color: lightyellow;
+        height: 200px;
+    }
+
+    figcaption h3 {
+        text-align: center;
+    }
+
+    .city-image {
+        width: 100%;
+        height: 200px;
+    }
 
 
 }
