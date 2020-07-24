@@ -28,13 +28,16 @@ main h2 {
 main h1 {
     font-family: 'Baloo';
     font-size: 30px;
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     margin: 0px;
 }
 
 #beelogo {
     background-color: white;
+    margin: auto;
+    /* width: 100%; */
+
 }
 
 #beelogo h3 {
@@ -44,14 +47,23 @@ main h1 {
 }
 
 header {
-    padding: 100px 0 30px 0;
+    padding: 100px 0 0 0;
     background-color: white;
-    margin-left: 50px
+    margin-left: 50px;
 }
 
 #menuList {
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: space-evenly;
+    background-color: white;
+    margin: 0;
+    padding-bottom: 5px;
 }
+
+.top-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+

@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css?family=Baloo|Sacramento|Sen&display=swap'); */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Baloo';
+    font-size: 30px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+ 
+h1 span {
+    font-family: 'Sacramento';
+}
+
+header {
+    padding: 100px 0 30px 0;
+    background-color: white;
+    text-align: center;
+}
+
+header div {
+    padding-left: 30px;
+}
+
+header h2{
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+header img{
+    display:inline-block;
+    width: 80px;
+    vertical-align: middle;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Sen';
+    background-color: #C9E7FF;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav a:link, nav a:visited {
+    color: #6598C2;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav #menuList {
+    display: none;
+}
+
+nav #prestonMenu::after {
+    content: "Magic";
+}
+
+#prestonTitle {
+    font-size: 28px;
+    font-family: "Baloo";
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+nav #menuList.hide {
+    display: none;
+}
+nav #menuList.show {
+    display: block;
+}
+
+section img {
+    width: 100%;
+}
+section figure div {
+    max-height: 150px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-container {
+    display: grid;
+}
+
+.img-container figure {
+    box-shadow: 1px 1px 15px 1px; 
+    border-radius: 10px;
+}
+
+.img-container figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+form { background-color: white;
+       padding: 20px;
+       border-radius: 20px;
+       margin: auto;
+       width: 50%;
+       box-shadow: 1px 1px 15px 1px;
+       text-align: center;
+}
+
+
+
