@@ -1,4 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Baloo|Sacramento|Sen&display=swap'); */
+@media screen and (max-width: 650px) {
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -11,7 +12,7 @@ h1 {
     vertical-align: middle;
     margin: 0px;
 }
- 
+
 h1 span {
     font-family: 'Sacramento';
 }
@@ -80,7 +81,6 @@ nav #prestonMenu::after {
     font-family: "Baloo";
 }
 
-
 footer {
     text-align: center;
 }
@@ -116,17 +116,52 @@ section figure div {
 
 .img-container figcaption {
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 form { background-color: white;
-       padding: 20px;
-       border-radius: 20px;
-       margin: auto;
-       width: 50%;
-       box-shadow: 1px 1px 15px 1px;
-       text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 1px 1px 15px 1px;
+    text-align: center;
 }
 
+#menuList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.img-container {
+    display: flex;
+}
 
+.fig-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+figure {
+    /* align-content: center; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightyellow;
+}
+
+figcaption ul {
+    display: flex;
+    width: 100%;
+}
+
+.city-image {
+    width: 100%;
+    border: 0;
+}
+
+} /* Don't delete - media query close */

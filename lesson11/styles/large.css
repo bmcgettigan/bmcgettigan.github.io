@@ -47,12 +47,6 @@
     
     }
 
-    .img-container {
-        grid-template-columns: auto auto auto;
-    }
-
-    .img-container figure:hover{
-        box-shadow: 1px 1px 5px 1px; 
-    }
+    
 
 }

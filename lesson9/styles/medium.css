@@ -1,16 +1,13 @@
 @media screen and (max-width: 800px) and (min-width: 650px) {
 
-
     h4 {
         text-align: center;
     }
 
     #fiveday {
-
         text-align: center;
         display: block;
         margin: auto;
-    
     }
 
     #fiveday table {
@@ -20,6 +17,31 @@
 
     .img-container {
         grid-template-columns: 50% 50%;
+    }
+
+    figure {
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        height: 200px;
+    }
+
+    figcaption {
+        width: 40%
+    }
+
+    figcaption h3 {
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .city-image {
+        width: 40%;
+    }
+
+    .middle-figure {
+        flex-direction: row-reverse;
     }
 
 }

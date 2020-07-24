@@ -35,16 +35,13 @@
 
 
     #fiveday {
-
         text-align: center;
         display: block;
         margin: auto;
-    
     }
 
     #fiveday table {
         margin: auto;
-    
     }
 
     .img-container {
@@ -55,4 +52,12 @@
         box-shadow: 1px 1px 5px 1px; 
     }
 
+    .img-container {
+        background-color: lightblue;
+        border: 1px solid red;
+    }
+
+    .fig-divs {
+        display: flex;
+    }
 }

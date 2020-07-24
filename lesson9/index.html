@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Baloo|Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./home.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/small.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/medium.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/large.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./scripts/main.js">
-    <link rel="stylesheet" type="text/css" media="screen" href="./home.css">
 </head>
     <main>
         <div class="top-bar">
@@ -22,7 +22,7 @@
             <div>
                 <ul id="menuList">
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                    <li><a href="../lesson11/preston.html">Preston</a></li>
                     <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
                     <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
                     <li><a href="./stormcenter.html">Storm Center</a</li>
@@ -31,43 +31,47 @@
             </div>
         </div>
     <div class="img-container">
-    <figure>
-        <figcaption>
-            <h3>Preston</h3>
-            <h4>Home of Napoleon Dynamite.</h4>
-            <ul>
-                <li>Year Founded: 1886</li>
-                <li>Population: 5204</li>
-                <li>Annual Rain Fall: 16.65</li>
-            </ul>
-        </figcaption>
-        <img src="./images/napoleon.png" alt="napoleon">
-    </figure>
-    <figure>
-            <figcaption>
-                <h3>Fish Haven</h3>
-                <h4>This is Fish Heaven!</h4>
-                <ul>
-                    <li>Year Founded: 1864</li>
-                    <li>Population: 501</li>
-                    <li>Annual Rain Fall: 14.2</li>
-                </ul>
-            </figcaption>
-            <img src="./images/farmhouse.jpg" alt="farm house">
-        </figure>
-        <figure>
+        <div class="fig-divs">
+            <figure>
                 <figcaption>
-                    <h3>Soda Springs</h3>
-                    <h4>Historic Oregon Trail Oasis. The Soda is on Us</h4>
+                    <h3>Preston</h3>
+                    <h4>Home of Napoleon Dynamite.</h4>
                     <ul>
-                        <li>Year Founded: 1858</li>
-                        <li>Population: 2958</li>
-                        <li>Annual Rain Fall: 15.75</li>
+                        <li>Year Founded: 1886</li>
+                        <li>Population: 5204</li>
+                        <li>Annual Rain Fall: 16.65</li>
                     </ul>
                 </figcaption>
-                <img src="./images/idahosheep.jpg" alt="sheep">
+                <img class="city-image" src="./images/napoleon.png" alt="napoleon">
             </figure>
-        </div>
-        </main>
+            <figure class="middle-figure">
+                    <figcaption>
+                        <h3>Fish Haven</h3>
+                        <h4>This is Fish Heaven!</h4>
+                        <ul>
+                            <li>Year Founded: 1864</li>
+                            <li>Population: 501</li>
+                            <li>Annual Rain Fall: 14.2</li>
+                        </ul>
+                    </figcaption>
+                    <img class="city-image" src="./images/farmhouse.jpg" alt="farm house">
+                </figure>
+                <figure>
+                        <figcaption>
+                            <h3>Soda Springs</h3>
+                            <h4>Historic Oregon Trail Oasis. The Soda is on Us</h4>
+                            <ul>
+                                <li>Year Founded: 1858</li>
+                                <li>Population: 2958</li>
+                                <li>Annual Rain Fall: 15.75</li>
+                            </ul>
+                        </figcaption>
+                        <img class="city-image" src="./images/idahosheep.jpg" alt="sheep">
+                    </figure>
+        </div> 
+        <!-- end of fig-divs divider -->
+    </div>
+    <!-- end of img-container divider -->
+    </main>
 </body>
 </html>
